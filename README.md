@@ -4,8 +4,7 @@
 
 
 
-\[!\[Built with askThili](https://ask.thili.ai/api/v1/public/projects/h9exxdwdvg/badge.svg)](https://ask.thili.ai/b/h9exxdwdvg)
-
+[![Built with askThili](https://msrit.ask.thili.ai/api/v1/public/projects/h9exxdwdvg/badge.svg)](https://msrit.ask.thili.ai/b/h9exxdwdvg)
 
 
 An AI-powered sports commentary generator that creates dynamic commentary for simulated football and cricket events. The project fine-tunes GPT-2 using Low-Rank Adaptation (LoRA) and provides an interactive Streamlit interface for generating event-based commentary.
@@ -316,9 +315,18 @@ models/sports-commentary-lora/
 
 
 
-\## Evaluation
+### Sample Evaluation Results
 
+The model was tested on representative football and cricket events.
 
+| Sport | Event | Evaluation observation |
+|---|---|---|
+| Football | Goal | Generated goal-related commentary, but incorrectly described the shot as wide |
+| Football | Penalty | Correctly identified the penalty situation |
+| Cricket | Six | Identified the sightscreen and boundary context, but produced repetitive wording |
+| Cricket | Wicket | Identified the stumps, but the generated sentence was repetitive |
+
+The results show that the model can identify aspects of the event context, although commentary fluency and factual consistency require improvement.
 
 Run the qualitative evaluation:
 
