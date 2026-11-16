@@ -5,6 +5,10 @@
 
 
 [![Built with askThili](https://msrit.ask.thili.ai/api/v1/public/projects/h9exxdwdvg/badge.svg)](https://msrit.ask.thili.ai/b/h9exxdwdvg)
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/development
 
 
 An AI-powered sports commentary generator that creates dynamic commentary for simulated football and cricket events. The project fine-tunes GPT-2 using Low-Rank Adaptation (LoRA) and provides an interactive Streamlit interface for generating event-based commentary.
