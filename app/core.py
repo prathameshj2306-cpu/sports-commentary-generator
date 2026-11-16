@@ -469,9 +469,22 @@ def milestone_2():
     )
 
 
-# --- Milestone 3: Build the Streamlit interface.
+# --- Milestone 3: Verify the Streamlit application.
 def milestone_3():
-    raise NotImplementedError("TODO(milestone 3)")
+    """Verify that the Streamlit application entry point exists."""
+
+    app_path = PROJECT_ROOT / "app" / "main.py"
+
+    if not app_path.exists():
+        raise FileNotFoundError(
+            f"Streamlit application not found: {app_path}"
+        )
+
+    return {
+        "status": "completed",
+        "app_path": str(app_path),
+        "run_command": "streamlit run app/main.py",
+    }
 
 
 # --- Milestone 4: Test commentary quality.

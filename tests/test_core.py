@@ -154,7 +154,7 @@ def test_validate_records_rejects_duplicates():
         validate_records([record, record])
 
 
-# Milestones 2–5 will be tested when we start implementing them.
+# Tests for the implemented milestones.
 def test_milestone_2():
     # Create a tiny GPT-2 model without downloading anything.
     config = GPT2Config(
