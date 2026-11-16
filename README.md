@@ -4,7 +4,7 @@
 
 
 
-\[!\[Built with askThili](https://ask.thili.ai/api/v1/public/projects/h9exxdwdvg/badge.svg)](https://ask.thili.ai/b/h9exxdwdvg)
+[![Built with askThili](https://msrit.ask.thili.ai/api/v1/public/projects/h9exxdwdvg/badge.svg)](https://msrit.ask.thili.ai/b/h9exxdwdvg)
 
 
 
